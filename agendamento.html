@@ -1,64 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jolie Femme - Beleza Feminina Agendamento</title>
 </head>
+
 <body>
-     <header>
+    <header>
         <h1>Agendamento<i>Jolie Femme</i> Beleza Feminina.</h1>
         <nav>
             <a href="index.html">Início</a>
             <a href="catalogo.html">Catálogo de maquiagens</a>
             <a href="agendamento.html">Agende um Horário</a>
             <a href="Sobre.html">Sobre nós</a>
-             <a href="contato.html">Entre em contato</a>
+            <a href="contato.html">Entre em contato</a>
         </nav>
     </header>
     <main>
         <h2>Garanta seu horário</h2>
-        <form action="#"
-        method="post">
-        <label for="nome">nome completo:</label>
-        <input type="texte"
-        name="nome" id="nome" required>
-        <br>
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email">
-        <br>
-        <label for="telefone">Telefone:</label>
-        <input
-            type="tel"
-            name="telefone"
-            id="telefone"
-            required
-            inputmode="numeric"
-            maxlength="15"
-            pattern="(?:\(?[1-9]{2}\)?\s?)?(?:9\d{4}|\d{4})-?\d{4}"
-            title="Digite com DDD. Ex: (17) 4002-8922 ou 1740028922"
-        >
-        <br>
-        <label for="data">Data:</label>
-        <input type="date" name="data" id="data" required>
-        <br>
-        <label for="hora">Horário:</label>
-           <input type="time" name="hora" id="hora" required>
-           <br>
-           <label for="tipos">Tipo de maquiagem:</label>
-           <select name="tipos" id="tipos" required>
-            <option value="">Selecione uma opção</option>
-            <option value="casual">casual</option>
-            <option value="formatura">Formatura</option>
-            <option value="noiva">Noiva</option>
-            <option value="eventos">Eventos</option>
-           </select>
-           <br>
-           <label for="mensagem">Mensagem:</label>
-           <textarea name="mensagem" id="mensagem" rows="4"></textarea>
-           <br>
-           <button type="submit">Confirmar Agendamento</button>
-    </form>
+        <form action="#" method="post">
+            <label for="nome">nome completo:</label>
+            <input type="texte" name="nome" id="nome" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" id="telefone" required inputmode="numeric" maxlength="15"
+                pattern="(?:\(?[1-9]{2}\)?\s?)?(?:9\d{4}|\d{4})-?\d{4}"
+                title="Digite com DDD. Ex: (17) 4002-8922 ou 1740028922">
+            <br>
+            <label for="data">Data:</label>
+            <input type="date" name="data" id="data" required>
+            <br>
+            <label for="hora">Horário:</label>
+            <input type="time" name="hora" id="hora" required>
+            <br>
+            <label for="tipos">Tipo de maquiagem:</label>
+            <select name="tipos" id="tipos" required>
+                <option value="">Selecione uma opção</option>
+                <option value="casual">casual</option>
+                <option value="formatura">Formatura</option>
+                <option value="noiva">Noiva</option>
+                <option value="eventos">Eventos</option>
+            </select>
+            <br>
+            <label for="mensagem">Mensagem:</label>
+            <textarea name="mensagem" id="mensagem" rows="4"></textarea>
+            <br>
+            <button type="submit">Confirmar Agendamento</button>
+        </form>
     </main>
     <footer>
         <p>
@@ -66,6 +59,7 @@
 
         </p>
     </footer>
-    
+
 </body>
+
 </html>
