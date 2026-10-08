@@ -8,9 +8,9 @@
 body {
    font-family: 'Playfair Display', serif;
     line-height: 1.5;
-    color: #222222;
-    background-color: #f5f5f5;
-    padding-top: 64px;
+    color: #361319;
+    background-color: #eadcc9;
+    padding-top: 70px;
 }
 
 a{
@@ -24,16 +24,18 @@ a{
     width: 100%;
     height: 64px;
     padding: 0 40px;
-    background-color: #1f3a5f;
+    background-color: #361319;
     z-index: 100;
+    box-shadow: 0 3px 12px rgba(54, 19, 25, 0.35);
     }
 
     .logo{
     float: left;
-    color: #ffffff;
+    color: #c6b39a;
     font-size: 1.4rem;
     font-weight: bold;
     line-height: 64px;
+    letter-spacing: 1px;
 }
 
 .logo img {
@@ -53,22 +55,23 @@ a{
 
 .menu a {
     display: block;
-    padding: 0 16px;
-    color: #ffffffff;
-    line-height: 64px;
-    font-weight: bold;
+    padding: 0 18px;
+    color: #c6b39a;
+    font-size: 1rem;
+     font-weight: 1000;
+     transition: 0.3s;
 }
 
 .menu a:hover {
-    background-color: #f3a900;
-    color: #1f3a5f;
+    background-color: #9e8e69;
+    color: #532829;
     font-weight: bold;
 }
 
 .hero { 
-   padding: 96px 20px;
-    background-color: #2d5a8a;
-    background-image: linear-gradient(rgba(31, 58, 95, 0.78), rgba(31, 58, 95, 0.78)), url("../img/foto principal.jpg");
+   padding: 120px 20px;
+    background-color: #2b0e12;
+    background-image: linear-gradient( rgba(54, 19, 25, 0.72), rgba(43, 14, 18, 0.82) ), url("../img/foto principal.jpg");
     background-size: cover;
     background-position: center;
     color: #ffffff;
@@ -77,49 +80,59 @@ a{
 
 .hero h1 {
     margin-bottom: 16px;
+    font-family: 'Playfair Display', serif;
     font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 
 .hero p {
     max-width: 600px;
-    margin: 0 auto 24px auto;
+    margin: 0 auto 30px auto;
+    color: #f3e7d5;
+    font-size: 1rem;
+
 }
 
 .botao {
     display: inline-block;
-    padding: 12px 28px;
-    border: 2px solid #f2a900;
-    border-radius: 6px;
-    background-color: #f2a900;
-    color: #1f3a5f;
+    padding: 13px 25px;
+    border: 1px solid #c6b39a;
+    border-radius: 30px;
+    background-color: #733536;
+    color: #ecd49c;
     font-weight: bold;
+    letter-spacing: 0.5px;
 }
 
 .botao:hover {
     background-color: #ecd49c;
-    border: 2px solid #f1b938;
+    border: 2px solid #ecd49c;
 }
 
-/* Seções e cards */
 .secao {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 80px 20px 40px 20px;
+    padding: 90px 20px 50px;
 }
 
 .secao h2 {
-    margin-bottom: 32px;
-    color: #1f3a5f;
+    margin-bottom: 40px;
+    color: #361319;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
     text-align: center;
+    letter-spacing: 1px;
 }
 
 .card {
     float: left;
     width: 32%;
     margin: 0 0.66%;;
-    padding: 24px;
-    border: 2px solid #cccccc;
-    background-color: #ffffff;
+    padding: 25px;
+    border: 1px solid #c6b39a;
+    background-color: #361319;
+    border-radius: 10px;
 }
 
 .card img {
@@ -127,13 +140,14 @@ a{
     width: 100%;
     height: 160px;
     margin-bottom: 16px;
-    border-radius: 6px;
+    border-radius: 8px;
     object-fit: cover;
 }
 
 .card h3 {
     margin-bottom: 8px;
-    color: #1f3a5f;
+    color: #361319;
+    font-family: 'Playfair Display', serif;
 }
 
 .limpa::after {
@@ -148,37 +162,86 @@ a{
 }
 
 .preco {
-    margin-bottom: 12px;
-    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #532829;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem; 
     font-weight: bold;
 }
 
 .plano ul {
     margin-left: 20px;
+    color: #6b5748;
 }
 
-.destaque {
-    border-color: #f2a900;
-}
+.plano li { 
+   margin-bottom: 6px; }
+
+.destaque { 
+    border: 2px solid #7b694e; 
+    background-color: #996363;
+ }
 
 .selo {
     position: absolute;
     top: -14px;
     right: 16px;
-    padding: 4px 12px;
-    border-radius: 12px;
-    background-color: #f2a900;
-    color: #1f3a5f;
-    font-size: 0.8rem;
+    padding: 4px 14px;
+    border-radius: 20px;
+    background-color: #af9e77;
+    color: #361319;
+    font-size: 0.75rem;
     font-weight: bold;
+    letter-spacing: 0.5px;
     z-index: 1;
 }
-
+ 
 /* Rodapé */
 #contato {
-    margin-top: 40px;
-    padding: 32px 20px;
-    background-color: #1f3a5f;
-    color: #ffffff;
+    margin-top: 50px;
+    padding: 40px 20px;
+    background-color: #361319;
+    color: #c6b39a;
     text-align: center;
+}
+
+#contato p {
+      color: #c6b39a;
+     }
+
+
+      .plano.normal {
+    background-color: #dcccb8;
+    border: 2px solid #7b694e;
+}
+
+
+.plano.noiva {
+    background-color: #f1e3d2;
+    border: 2px solid #c6b39a;
+}
+
+
+.plano.social {
+    background-color: #532829;
+    border: 2px solid #ecd49c;
+    color: #f4eee6;
+}
+
+.botao:hover {
+    background-color: #e2d0a6;
+    border-color: #dacdae;
+    color: #361319;
+    transform: translateY(-2px);
+}
+
+.hero h1 {
+    margin-bottom: 18px;
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+    /* MUDANÇA: coloquei o título em bege */
+    color: #eadcc9;
 }
