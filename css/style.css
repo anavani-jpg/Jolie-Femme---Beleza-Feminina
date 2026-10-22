@@ -39,7 +39,7 @@ a{
 }
 
 .logo img {
-    height: 40px;
+    height: 60px;
     margin-right: 10px;
     vertical-align: middle;
 }
@@ -89,7 +89,7 @@ a{
 .hero p {
     max-width: 600px;
     margin: 0 auto 30px auto;
-    color: #f3e7d5;
+    color: #c6b39a;
     font-size: 1rem;
 
 }
@@ -146,7 +146,7 @@ a{
 
 .card h3 {
     margin-bottom: 8px;
-    color: #361319;
+    color: #682832;
     font-family: 'Playfair Display', serif;
 }
 
@@ -189,7 +189,7 @@ a{
     padding: 4px 14px;
     border-radius: 20px;
     background-color: #af9e77;
-    color: #361319;
+    color: #6D2932;
     font-size: 0.75rem;
     font-weight: bold;
     letter-spacing: 0.5px;
@@ -212,7 +212,8 @@ a{
 
       .plano.normal {
     background-color: #dcccb8;
-    border: 2px solid #7b694e;
+    border: 2px solid #6D2932;
+    color: #f4eee6;
 }
 
 
@@ -223,7 +224,7 @@ a{
 
 
 .plano.social {
-    background-color: #532829;
+    background-color: #6D2932;
     border: 2px solid #ecd49c;
     color: #f4eee6;
 }
@@ -243,5 +244,5 @@ a{
     letter-spacing: 1px;
 
     /* MUDANÇA: coloquei o título em bege */
-    color: #eadcc9;
+    color: #c6b39a;
 }
